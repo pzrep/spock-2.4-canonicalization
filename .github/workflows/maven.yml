@@ -1,0 +1,27 @@
+name: Java CI
+
+on:
+  pull_request:
+
+jobs:
+  test-russel-with-spock:
+    name: Test russel on JDK ${{ matrix.java_version }} with spock
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        java_version:
+        - 17
+        - 21
+        - 25
+
+    steps:
+    - name: Checkout for build on JDK ${{ matrix.java_version }}
+      uses: actions/checkout@v6
+    - name: Set up JDK ${{ matrix.java_version }}
+      uses: actions/setup-java@v5
+      with:
+        distribution: 'temurin'
+        java-version: ${{ matrix.java_version }}
+    - name: Build with Maven
+      run: ./mvnw -e --no-transfer-progress --show-version test
