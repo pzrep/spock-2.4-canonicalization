@@ -19,7 +19,7 @@
         <groovy.eclipse.batch.version>4.0.29-01</groovy.eclipse.batch.version>
         <groovy.eclipse.compiler.version>3.9.1</groovy.eclipse.compiler.version>
         <surefire.version>3.5.4</surefire.version>
-        <spockframework.version>2.3-groovy-4.0</spockframework.version>
+        <spockframework.version>2.4-M6-groovy-4.0</spockframework.version>
     </properties>
 
     <pluginRepositories>
