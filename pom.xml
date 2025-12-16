@@ -10,6 +10,7 @@
     <modules>
         <module>russel</module>
         <module>release_info-in-groovy</module>
+        <module>release_info-in-geb</module>
     </modules>
 
     <properties>
