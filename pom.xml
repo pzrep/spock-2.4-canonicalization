@@ -9,6 +9,7 @@
 
     <modules>
         <module>russel</module>
+        <module>release_info-in-groovy</module>
     </modules>
 
     <properties>
