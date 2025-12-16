@@ -17,7 +17,7 @@
         <maven.compiler.release>17</maven.compiler.release>
         <maven.compiler.testRelease>17</maven.compiler.testRelease>
         <groovy.version>4.0.29</groovy.version>
-        <groovy.eclipse.batch.version>4.0.29-01</groovy.eclipse.batch.version>
+        <groovy.eclipse.batch.version>4.0.29-02</groovy.eclipse.batch.version>
         <groovy.eclipse.compiler.version>3.9.1</groovy.eclipse.compiler.version>
         <surefire.version>3.5.4</surefire.version>
         <spockframework.version>2.3-groovy-4.0</spockframework.version>
